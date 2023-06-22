@@ -3,3 +3,11 @@
     width: 4rem;
     font-size:2rem;
 }
+
+#number {
+    width: fit-content;
+}
+
+.main{
+    border: 1px solid black;
+}
