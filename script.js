@@ -10,6 +10,8 @@ increaseBtn.addEventListener("click",()=>{
 })
 
 decreaseBtn.addEventListener("click",()=>{
-    initialNumber--
-    number.innerHTML = `${initialNumber}`
+    if (initialNumber > 0) {
+        initialNumber--
+        number.innerHTML = `${initialNumber}`
+    }
 })
